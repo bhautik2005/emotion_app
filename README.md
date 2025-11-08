@@ -75,3 +75,4 @@ Feel free to open issues and pull requests!
 ## 📝 License
 
 This project is licensed under the MIT License.
+Copyright (c) 2025 Bhautik Gondaliya
