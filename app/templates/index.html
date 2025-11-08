@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emotion Detection App</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Emotion Detection from Text 😊</h1>
+    <form method="POST" action="/predict">
+      <textarea name="text" rows="5" placeholder="Enter your text here..." required></textarea>
+      <button type="submit">Predict Emotion</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result">
+      <p><strong>Original Text:</strong> {{ original_text }}</p>
+      <p><strong>Processed Text:</strong> {{ processed_text }}</p>
+      <p class="emotion"><strong>Predicted Emotion:</strong> {{ prediction }}</p>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
