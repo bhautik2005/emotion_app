@@ -12,7 +12,7 @@ A Flask-based web application that detects emotions from text using machine lear
 - Built with Flask and Scikit-learn
 
 ## 🧠 Demo
-![Emotion Detection Output]([Screenshot 2025-11-08 183717.png])
+![Emotion Detection Output](Screenshot 2025-11-08 183717.png)
 
 ## 🛠️ Tech Stack
 
